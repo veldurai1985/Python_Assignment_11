@@ -22,19 +22,14 @@ You will need to:
 
 ### Evaluate the performance of each model
 
-Use the above to answer the following:
-
 > Which model has a lower loss?
-
-> Stock price prediction based on closing price (loss = 0.0204/Window size =1) has lower loss than stock price prediction based on FNG (loss = 0.1151/Window size =1).
+* Stock price prediction based on closing price (loss = 0.0204/Window size =1) has lower loss than stock price prediction based on FNG (loss = 0.1151/Window size =1).
 
 > Which model tracks the actual values better over time?
-
-> Stock price prediction based on closing price tracks the actual values better over time.
+* Stock price prediction based on closing price tracks the actual values better over time.
 
 > Which window size works best for the model?
-
->The window size 1 has the lowest loss compared to other window size. In stock price prediction based on close, 
+* The window size 1 has the lowest loss compared to other window size. In stock price prediction based on close, 
 Window size loss for 10  = 0.0487 vs Window size loss for 1 = 0.0204
 
 - - -
